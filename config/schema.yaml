@@ -1,0 +1,51 @@
+columns:
+  - Age
+  - Education
+  - Marital_Status
+  - Parental_Status
+  - Children
+  - Income
+  - Total_Spending
+  - Days_as_Customer
+  - Recency
+  - Wines
+  - Fruits
+  - Meat
+  - Fish
+  - Sweets
+  - Gold
+  - Web
+  - Catalog
+  - Store
+  - Discount_Purchases
+  - Total_Promo
+  - NumWebVisitsMonth
+
+numerical_columns:
+  - Age
+  - Children
+  - Income
+  - Total_Spending
+  - Days_as_Customer
+  - Recency
+  - Wines
+  - Fruits
+  - Meat
+  - Fish
+  - Sweets
+  - Gold
+  - Web
+  - Catalog
+  - Store
+  - Discount_Purchases
+  - Total_Promo
+  - NumWebVisitsMonth
+
+categorical_columns:
+  - Education
+  - Marital_Status
+  - Parental_Status
+
+target_column: cluster
+
+drop_columns: []
