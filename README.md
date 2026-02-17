@@ -22,31 +22,24 @@ This is a fully automated, cloud-connected, versioned, deployable ML system that
 This project demonstrates real-world MLOps architecture, not just model training.
 
 🏗 System Architecture
-                ┌─────────────────────┐
-                │     MongoDB Atlas   │
-                └──────────┬──────────┘
-                           │
-                    Data Ingestion
-                           │
-                    Data Validation
-                           │
-                   Data Transformation
-                           │
-                ┌──────────▼──────────┐
-                │     KMeans          │  (Customer Segments)
-                └──────────┬──────────┘
-                           │
-                ┌──────────▼──────────┐
-                │ Logistic Regression │
-                └──────────┬──────────┘
-                           │
-                   Model Evaluation
-                           │
-                    AWS S3 (Versioned)
-                           │
-                    FastAPI Backend
-                           │
-                      Render Hosting
+              src/
+│
+├── components/
+│   ├── data_ingestion.py
+│   ├── data_validation.py
+│   ├── data_transformation.py
+│   ├── model_trainer.py
+│   ├── model_evaluation.py
+│   └── model_pusher.py
+│
+├── pipeline/
+│   ├── train_pipeline.py
+│   └── prediction_pipeline.py
+│
+├── configuration/
+├── entity/
+├── cloud_storage/
+└── artifact/
 
 🧠 Machine Learning Strategy
 1️⃣ Hybrid Intelligence Approach
