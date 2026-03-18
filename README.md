@@ -277,7 +277,7 @@ API will be live at `http://localhost:8000`
 
 <div align="center">
 
-**Built by [Shaswatik Giri](https://github.com/Shaswatik-gork) — Machine Learning Engineer**
+**Built by [Shaswatik Giri](https://github.com/Shaswatik-gork) — CS Student|ML Enthusiast**
 
 *If this project helped you, consider giving it a ⭐*
 
